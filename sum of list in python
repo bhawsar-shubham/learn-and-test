@@ -1,0 +1,10 @@
+lst=[]
+t=0
+n=int(input())
+for _ in range(n):
+    ele=int(input())
+    lst.append(ele)
+print(sum(lst))
+for x in range(len(lst)):
+    t=t+lst[x]
+print(t)
